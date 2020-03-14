@@ -1,4 +1,4 @@
-package com.mynewlife2.demo;
+package com.mynewlife2.demo.controllers;
 
 import com.mynewlife2.demo.domain.Message;
 import com.mynewlife2.demo.repos.MessageRepository;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-public class GreetingController {
+public class MainController {
 
     @Autowired
     private MessageRepository messageRepository;
